@@ -1,0 +1,5 @@
+com/availity/filereader/model/FilesDatabase.class
+com/availity/filereader/fileController/FileUploadController.class
+com/availity/filereader/repository/FilesDatabaseRepository.class
+com/availity/filereader/FilesForEveryoneApplication.class
+com/availity/filereader/services/FilesDatabaseService.class

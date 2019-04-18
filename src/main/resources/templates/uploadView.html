@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Insert files</title>
+</head>
+<body>
+<div>
+    <h3>Upload Files here</h3>
+    <form action="/uploadFilesLocal" method="post" enctype="multipart/form-data">
+        <input type="file" name="Files" multiple>
+        <input type="submit" name="database" value="provider1">
+        <input type="submit" name="local" value="provider2">
+        <input type="submit" name="console" value="provider3">
+
+    </form>
+
+</div>
+
+</body>
+</html>
